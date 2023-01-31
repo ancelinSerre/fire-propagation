@@ -1,0 +1,9 @@
+{
+    "height": 6,
+    "width": 6,
+    "prob": 0.65,
+    "fireStarters": [
+        [3, 4],
+        [0, 0]
+    ]
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <title>Fire propagation</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="step">Fire propagation simulation</h2>
+      <div class="toolbox">
+        <input id="configFile" class="inputFile" name="configFile" type="file" />
+        <label id="inputLabel" for="configFile">Choose a JSON configuration file</label>
+        <button id="startSim" class="button-start" disabled>Start simulation</button>
+      </div>
+      <div class="legend">
+        <div class="hbox safe">Safe</div>
+        <div class="hbox fire">Fire</div>
+        <div class="hbox ash">Ash</div>
+      </div>
+      <table id="forest">
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+  <script type="module" src="main.js"></script>
+</html>
